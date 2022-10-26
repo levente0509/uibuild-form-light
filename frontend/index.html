@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>This is FRONTEND</title>
-</head>
-<body>
-	<div id="root"></div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:wght@500&display=swap");
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <title>Visszajelzés</title>
+  </head>
+  <body>
+    <div id="root">
+      <h1 class="feedback">Visszajelzés</h1>
+      <div>
+        <input class="input" type="text" placeholder="Tárgy" />
+      </div>
+      <div>
+        <textarea class="textarea" placeholder="Megjegyzés"></textarea>
+      </div>
+      <div class="checkbox">
+        <input class="box" type="checkbox" />
+        <p class="box-text">
+          Elolvastam és elfogadom az <u> Adatkezelési Tájékoztatót.</u>
+        </p>
+      </div>
+      <div class="button-container">
+        <button class="button">Mentés</button>
+      </div>
+    </div>
+  </body>
 </html>
